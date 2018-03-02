@@ -1,0 +1,31 @@
+{
+  "name": "neo-noir",
+  "version": "1.0.0",
+  "description": "Neo noir band site",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisLithgow/neo-noir.git"
+  },
+  "author": "Luis Lithgow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisLithgow/neo-noir/issues"
+  },
+  "homepage": "https://github.com/LuisLithgow/neo-noir#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "ejs-locals": "^1.0.2",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.0.2",
+    "method-override": "^2.3.10",
+    "mongojs": "^2.5.0",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7"
+  }
+}
